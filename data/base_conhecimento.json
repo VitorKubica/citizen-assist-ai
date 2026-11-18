@@ -1,0 +1,565 @@
+{
+  "versao": "1.0",
+  "descricao": "Base de orientações do Citizen Assist AI. Cada registro resume uma informação conferida na fonte oficial indicada, na data de verificação informada. O assistente não é canal oficial de nenhum órgão.",
+  "temas": {
+    "documentos": "Documentos",
+    "servicos": "Serviços",
+    "comunitarias": "Orientações comunitárias"
+  },
+  "registros": [
+    {
+      "id": "DOC-01",
+      "tema": "documentos",
+      "subtema": "Acesso digital",
+      "pergunta": "Quais documentos consultar antes de solicitar um serviço?",
+      "palavras_chave": [
+        "documentos antes de solicitar",
+        "solicitar servico",
+        "documentos necessarios",
+        "o que levar",
+        "preparar documentos",
+        "cpf",
+        "conta gov.br",
+        "servico publico"
+      ],
+      "orientacao": "Antes de pedir um serviço público, separe o número do CPF e confira se você tem uma conta gov.br, pois muitos serviços digitais pedem os dois. O CPF é obrigatório para criar a conta gov.br, e o cadastro também pede e-mail ou celular para validação. Tenha à mão um documento de identificação com foto (CIN, CNH ou passaporte). Na página de cada serviço, confira a lista exata de documentos e o nível de conta exigido.",
+      "referencia": {
+        "titulo": "Conta gov.br — Dúvidas frequentes: cadastro sem CPF",
+        "url": "https://acesso.gov.br/faq/_perguntasdafaq/cadastrosemcpf.html"
+      },
+      "data_verificacao": "2026-11-18",
+      "aviso": "Cada serviço tem requisitos próprios. Confirme a lista atualizada na página oficial do serviço antes de sair de casa.",
+      "relacionados": [
+        "DOC-02",
+        "DOC-04",
+        "DOC-03"
+      ]
+    },
+    {
+      "id": "DOC-02",
+      "tema": "documentos",
+      "subtema": "Identificação",
+      "pergunta": "Como faço a inscrição no CPF?",
+      "palavras_chave": [
+        "cpf",
+        "inscricao no cpf",
+        "tirar cpf",
+        "fazer cpf",
+        "nao tenho cpf",
+        "cadastro de pessoas fisicas",
+        "receita federal"
+      ],
+      "orientacao": "A inscrição no CPF pode ser feita pela internet, em formulário da Receita Federal, ou presencialmente em uma unidade da Receita. Pelo site, o serviço é gratuito. Também é possível pedir em cartórios de registro civil, Banco do Brasil, Caixa e Correios, que cobram taxa de R$ 7,00. Leve um documento de identificação oficial com foto e, se ele não trouxer naturalidade, filiação e data de nascimento, a certidão de nascimento ou casamento.",
+      "referencia": {
+        "titulo": "gov.br — Inscrever no CPF (Receita Federal)",
+        "url": "https://www.gov.br/pt-br/servicos/inscrever-no-cpf"
+      },
+      "data_verificacao": "2026-11-18",
+      "aviso": "Menores de idade e pessoas com deficiência têm regras específicas. Confira a página oficial antes de fazer o pedido.",
+      "relacionados": [
+        "DOC-03",
+        "DOC-01",
+        "DOC-04"
+      ]
+    },
+    {
+      "id": "DOC-03",
+      "tema": "documentos",
+      "subtema": "Identificação",
+      "pergunta": "O que é a Carteira de Identidade Nacional (CIN) e quanto custa a primeira via?",
+      "palavras_chave": [
+        "carteira de identidade nacional",
+        "cin",
+        "identidade",
+        "rg",
+        "novo rg",
+        "nova identidade",
+        "primeira via",
+        "documento de identidade"
+      ],
+      "orientacao": "A Carteira de Identidade Nacional (CIN) substitui o antigo RG e usa o número do CPF como identificador único, válido em todo o Brasil. A primeira emissão em papel é gratuita. O documento tem QR code para dificultar fraudes e também existe em versão digital. A emissão é feita pelo órgão de identificação do seu estado, com agendamento no portal estadual.",
+      "referencia": {
+        "titulo": "Governo Digital — Carteira de Identidade Nacional",
+        "url": "https://www.gov.br/governodigital/pt-br/identidade/cin"
+      },
+      "data_verificacao": "2026-11-18",
+      "aviso": "Agendamento, documentos e valor da segunda via variam por estado. Consulte o órgão de identificação do seu estado.",
+      "relacionados": [
+        "DOC-02",
+        "DOC-04",
+        "DOC-05"
+      ]
+    },
+    {
+      "id": "DOC-04",
+      "tema": "documentos",
+      "subtema": "Acesso digital",
+      "pergunta": "Quais são os níveis da conta gov.br e como aumentar o nível?",
+      "palavras_chave": [
+        "conta gov.br",
+        "gov.br",
+        "nivel da conta",
+        "bronze",
+        "prata",
+        "ouro",
+        "aumentar nivel",
+        "selo de confiabilidade",
+        "login gov"
+      ],
+      "orientacao": "A conta gov.br tem três níveis. Bronze: criada pelo formulário online, com validação de dados na Receita Federal ou no INSS, ou presencialmente. Prata: obtida por reconhecimento facial no aplicativo gov.br (base da CNH) ou validação pelo internet banking de um banco credenciado. Ouro: obtido por reconhecimento facial com a base da Justiça Eleitoral, pela leitura do QR code da CIN no aplicativo ou por certificado digital ICP-Brasil. Para subir de nível, toque em \"Aumentar nível\" no aplicativo gov.br.",
+      "referencia": {
+        "titulo": "Governo Digital — Saiba mais sobre os níveis da conta gov.br",
+        "url": "https://www.gov.br/governodigital/pt-br/conta-gov-br/saiba-mais-sobre-os-niveis-da-conta-govbr"
+      },
+      "data_verificacao": "2026-11-18",
+      "aviso": "Alguns serviços exigem nível prata ou ouro. Confira o nível pedido na página de cada serviço.",
+      "relacionados": [
+        "DOC-01",
+        "DOC-03",
+        "SER-04"
+      ]
+    },
+    {
+      "id": "DOC-05",
+      "tema": "documentos",
+      "subtema": "Registro civil",
+      "pergunta": "Como pedir a segunda via da certidão de nascimento?",
+      "palavras_chave": [
+        "segunda via",
+        "2a via",
+        "certidao de nascimento",
+        "certidao",
+        "perdi a certidao",
+        "cartorio",
+        "registro civil",
+        "certidao de casamento"
+      ],
+      "orientacao": "A segunda via da certidão de nascimento pode ser pedida em qualquer cartório de registro civil, não só onde o registro foi feito, graças à Central Nacional de Informações do Registro Civil (CRC). Basta informar os dados do registro ou apresentar uma cópia da certidão. Também é possível pedir pela plataforma oficial do Registro Civil (registrocivil.org.br).",
+      "referencia": {
+        "titulo": "Registro Civil (Arpen Brasil) — Devo solicitar a 2ª via no cartório em que fui registrado?",
+        "url": "https://blog.registrocivil.org.br/devo-solicitar-2a-via-de-certidao-no-cartorio-em-que-fui-registrado/"
+      },
+      "data_verificacao": "2026-11-18",
+      "aviso": "Há sites privados que cobram para intermediar o pedido. Prefira o cartório ou a plataforma oficial e confirme os valores antes de pagar.",
+      "relacionados": [
+        "DOC-03",
+        "DOC-02",
+        "DOC-06"
+      ]
+    },
+    {
+      "id": "DOC-06",
+      "tema": "documentos",
+      "subtema": "Cidadania",
+      "pergunta": "Como tirar o título de eleitor pela internet?",
+      "palavras_chave": [
+        "titulo de eleitor",
+        "titulo eleitoral",
+        "tirar titulo",
+        "e-titulo",
+        "autoatendimento eleitoral",
+        "tse",
+        "votar",
+        "justica eleitoral"
+      ],
+      "orientacao": "O título pode ser pedido pelo Autoatendimento Eleitoral, no portal do TSE, na opção \"Tire seu título eleitoral\". É preciso enviar foto de um documento oficial de identificação, um comprovante de vínculo com o município e uma selfie segurando o documento. O pedido é acompanhado com o número de protocolo. Depois da aprovação, a via digital fica disponível no aplicativo e-Título.",
+      "referencia": {
+        "titulo": "TSE — Não tem título de eleitor? Veja como tirar o documento pela internet",
+        "url": "https://www.tse.jus.br/comunicacao/noticias/2024/Fevereiro/nao-tem-titulo-de-eleitor-veja-como-tirar-o-documento-pela-internet"
+      },
+      "data_verificacao": "2026-11-18",
+      "aviso": "Quem precisa fazer a coleta biométrica deve ir a um cartório eleitoral. O cadastro fecha 150 dias antes de cada eleição. Confirme a situação no portal do TSE.",
+      "relacionados": [
+        "DOC-04",
+        "DOC-03",
+        "DOC-01"
+      ]
+    },
+    {
+      "id": "DOC-07",
+      "tema": "documentos",
+      "subtema": "Trabalho",
+      "pergunta": "Como obter a Carteira de Trabalho Digital?",
+      "palavras_chave": [
+        "carteira de trabalho",
+        "ctps",
+        "ctps digital",
+        "carteira de trabalho digital",
+        "emprego",
+        "trabalho"
+      ],
+      "orientacao": "Qualquer pessoa inscrita no CPF pode obter a Carteira de Trabalho Digital. Para isso, basta o número do CPF e uma conta gov.br (nível bronze, prata ou ouro). O serviço é gratuito e imediato, pelo aplicativo \"CTPS Digital\" (Android e iOS) ou pelo portal do Ministério do Trabalho e Emprego. Dúvidas podem ser tiradas na Central 158.",
+      "referencia": {
+        "titulo": "gov.br — Obter a Carteira de Trabalho",
+        "url": "https://www.gov.br/pt-br/servicos/obter-a-carteira-de-trabalho"
+      },
+      "data_verificacao": "2026-11-18",
+      "aviso": "Baixe o aplicativo somente nas lojas oficiais e não informe sua senha gov.br a terceiros.",
+      "relacionados": [
+        "SER-05",
+        "DOC-04",
+        "SER-04"
+      ]
+    },
+    {
+      "id": "SER-01",
+      "tema": "servicos",
+      "subtema": "Saúde",
+      "pergunta": "Como conseguir o Cartão SUS (Cartão Nacional de Saúde)?",
+      "palavras_chave": [
+        "cartao sus",
+        "cartao do sus",
+        "cartao nacional de saude",
+        "cns",
+        "sus",
+        "posto de saude",
+        "fazer cartao sus"
+      ],
+      "orientacao": "A emissão do Cartão Nacional de Saúde é presencial, na rede pública de saúde da sua cidade: postos de saúde, clínicas ou hospitais. No cadastro, apresente RG (ou CIN), CPF e certidão de nascimento ou casamento.",
+      "referencia": {
+        "titulo": "Ministério da Saúde — Como conseguir o Cartão SUS?",
+        "url": "https://www.gov.br/saude/pt-br/acesso-a-informacao/faq/tematicos-e-outros/como-conseguir-o-cartao-sus"
+      },
+      "data_verificacao": "2026-11-18",
+      "aviso": "Alguns municípios também pedem comprovante de residência. Confirme com a unidade de saúde mais próxima.",
+      "relacionados": [
+        "SER-02",
+        "DOC-02",
+        "COM-05"
+      ]
+    },
+    {
+      "id": "SER-02",
+      "tema": "servicos",
+      "subtema": "Saúde",
+      "pergunta": "Posso usar o Cartão SUS no celular pelo Meu SUS Digital?",
+      "palavras_chave": [
+        "meu sus digital",
+        "sus digital",
+        "cartao sus no celular",
+        "aplicativo do sus",
+        "cartao sus digital",
+        "conecte sus"
+      ],
+      "orientacao": "O aplicativo Meu SUS Digital serve para apresentar o Cartão Nacional de Saúde em formato digital, com acesso pela conta gov.br. Ele não emite um cartão novo: a emissão e as alterações de cadastro são feitas presencialmente em um estabelecimento de saúde, onde também é possível pedir o cartão impresso.",
+      "referencia": {
+        "titulo": "Ministério da Saúde — Meu SUS Digital: perguntas e respostas do cidadão",
+        "url": "https://www.gov.br/saude/pt-br/composicao/seidigi/meususdigital/perguntas-e-respostas/cidadao"
+      },
+      "data_verificacao": "2026-11-18",
+      "aviso": "Use apenas o aplicativo oficial do Ministério da Saúde.",
+      "relacionados": [
+        "SER-01",
+        "DOC-04",
+        "SER-03"
+      ]
+    },
+    {
+      "id": "SER-03",
+      "tema": "servicos",
+      "subtema": "Assistência social",
+      "pergunta": "Como me inscrever no Cadastro Único?",
+      "palavras_chave": [
+        "cadastro unico",
+        "cadunico",
+        "cad unico",
+        "bolsa familia",
+        "programas sociais",
+        "baixa renda",
+        "tarifa social",
+        "bpc"
+      ],
+      "orientacao": "O Cadastro Único identifica famílias de baixa renda e é usado para selecionar participantes de programas como o Bolsa Família, a Tarifa Social de Energia Elétrica e o BPC. Podem se cadastrar famílias com renda de até meio salário mínimo por pessoa. O cadastro é gratuito e presencial, feito no CRAS ou em um posto de cadastramento do município. O responsável pela família deve levar o CPF de todos os moradores, um documento de identificação e, se houver, um comprovante de residência.",
+      "referencia": {
+        "titulo": "MDS — Cadastro Único",
+        "url": "https://www.gov.br/mds/pt-br/acoes-e-programas/cadastro-unico"
+      },
+      "data_verificacao": "2026-11-18",
+      "aviso": "Estar no Cadastro Único não garante a entrada em um programa. Cada programa tem regras próprias.",
+      "relacionados": [
+        "COM-05",
+        "DOC-02",
+        "SER-01"
+      ]
+    },
+    {
+      "id": "SER-04",
+      "tema": "servicos",
+      "subtema": "Previdência e trabalho",
+      "pergunta": "O que dá para fazer no Meu INSS e como acessar?",
+      "palavras_chave": [
+        "meu inss",
+        "inss",
+        "aposentadoria",
+        "beneficio do inss",
+        "extrato inss",
+        "pericia",
+        "previdencia",
+        "central 135"
+      ],
+      "orientacao": "O Meu INSS reúne mais de 90 serviços previdenciários, como pedidos de aposentadoria, salário-maternidade, pensão por morte e auxílio por incapacidade, além de extratos e agendamento de perícia. O acesso é feito pelo site gov.br/meuinss ou pelo aplicativo, com uma conta gov.br ativa. A Central 135 atende de segunda a sábado, das 7h às 22h.",
+      "referencia": {
+        "titulo": "INSS — Saiba tudo sobre o Meu INSS",
+        "url": "https://www.gov.br/inss/pt-br/canais_atendimento/meu-inss/meu-inss"
+      },
+      "data_verificacao": "2026-11-18",
+      "aviso": "O INSS não cobra por pedidos e não precisa de intermediários. Desconfie de quem pede sua senha.",
+      "relacionados": [
+        "DOC-04",
+        "SER-05",
+        "DOC-07"
+      ]
+    },
+    {
+      "id": "SER-05",
+      "tema": "servicos",
+      "subtema": "Previdência e trabalho",
+      "pergunta": "Quem tem direito ao seguro-desemprego e como pedir?",
+      "palavras_chave": [
+        "seguro-desemprego",
+        "seguro desemprego",
+        "demitido",
+        "fui demitido",
+        "demissao",
+        "sem justa causa",
+        "desempregado"
+      ],
+      "orientacao": "O seguro-desemprego é para o trabalhador formal dispensado sem justa causa, sem renda própria suficiente, que recebeu salários por 12 dos últimos 18 meses (primeiro pedido), 9 dos últimos 12 meses (segundo) ou nos 6 meses anteriores à dispensa (demais pedidos). O pedido é feito pelo aplicativo Carteira de Trabalho Digital ou pelo portal gov.br, com conta gov.br. É preciso o documento de requerimento entregue pelo empregador e o número do CPF. Dúvidas: telefone 158.",
+      "referencia": {
+        "titulo": "gov.br — Solicitar o Seguro-Desemprego",
+        "url": "https://www.gov.br/pt-br/servicos/solicitar-o-seguro-desemprego"
+      },
+      "data_verificacao": "2026-11-18",
+      "aviso": "Existem prazos para fazer o pedido após a dispensa. Confirme o prazo no portal oficial ou pelo 158.",
+      "relacionados": [
+        "DOC-07",
+        "SER-04",
+        "SER-03"
+      ]
+    },
+    {
+      "id": "SER-06",
+      "tema": "servicos",
+      "subtema": "Direitos do consumidor",
+      "pergunta": "Como registrar uma reclamação contra uma empresa?",
+      "palavras_chave": [
+        "reclamacao",
+        "reclamar empresa",
+        "consumidor.gov.br",
+        "consumidor",
+        "procon",
+        "problema com compra",
+        "empresa nao resolve"
+      ],
+      "orientacao": "O consumidor.gov.br é um serviço público e gratuito para negociar diretamente com empresas cadastradas. Você registra a reclamação online e a empresa tem até 10 dias para responder. Depois, você tem até 20 dias para avaliar se o problema foi resolvido. Se não houver solução, procure o Procon, a Defensoria Pública ou o Juizado Especial Cível.",
+      "referencia": {
+        "titulo": "consumidor.gov.br — Conheça o serviço",
+        "url": "https://www.consumidor.gov.br/pages/conteudo/publico/1"
+      },
+      "data_verificacao": "2026-11-18",
+      "aviso": "Antes de registrar, confirme se a empresa está cadastrada na plataforma. O serviço não substitui o atendimento do Procon.",
+      "relacionados": [
+        "SER-07",
+        "COM-03",
+        "DOC-04"
+      ]
+    },
+    {
+      "id": "SER-07",
+      "tema": "servicos",
+      "subtema": "Direitos do consumidor",
+      "pergunta": "Comprei pela internet e me arrependi. Posso desistir da compra?",
+      "palavras_chave": [
+        "arrependimento",
+        "direito de arrependimento",
+        "desistir da compra",
+        "devolver produto",
+        "compra pela internet",
+        "compra online",
+        "7 dias",
+        "sete dias",
+        "codigo de defesa do consumidor"
+      ],
+      "orientacao": "Pelo Código de Defesa do Consumidor (art. 49), quem compra fora do estabelecimento comercial, especialmente por telefone ou em domicílio (o que inclui compras pela internet), pode desistir do contrato em até 7 dias, contados da assinatura ou do recebimento do produto ou serviço. Se desistir nesse prazo, os valores pagos devem ser devolvidos de imediato, com atualização monetária.",
+      "referencia": {
+        "titulo": "Lei nº 8.078/1990 — Código de Defesa do Consumidor, art. 49",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm"
+      },
+      "data_verificacao": "2026-11-18",
+      "aviso": "Guarde comprovantes e faça o pedido por escrito. Em caso de conflito, procure o Procon da sua cidade.",
+      "relacionados": [
+        "SER-06",
+        "COM-03",
+        "DOC-01"
+      ]
+    },
+    {
+      "id": "COM-01",
+      "tema": "comunitarias",
+      "subtema": "Emergências",
+      "pergunta": "Quais são os telefones de emergência?",
+      "palavras_chave": [
+        "telefones de emergencia",
+        "emergencia",
+        "numero de emergencia",
+        "190",
+        "192",
+        "193",
+        "policia",
+        "samu",
+        "bombeiros",
+        "ambulancia"
+      ],
+      "orientacao": "Telefones de emergência: 190 (Polícia Militar, para crimes em andamento e riscos à segurança); 192 (SAMU, para urgências médicas); 193 (Corpo de Bombeiros, para incêndios, acidentes, resgates e salvamentos); 199 (Defesa Civil, para desastres como enchentes e deslizamentos); 191 (Polícia Rodoviária Federal, para rodovias federais). Use esses números apenas quando a situação exigir atendimento.",
+      "referencia": {
+        "titulo": "Ministério das Comunicações — Emergência: você sabe para quem ligar quando precisa de ajuda?",
+        "url": "https://www.gov.br/mcom/pt-br/noticias/noticias_alt/2026/setembro/emergencia-voce-sabe-para-quem-ligar-quando-precisa-de-ajuda"
+      },
+      "data_verificacao": "2026-11-18",
+      "aviso": "Em perigo imediato, ligue primeiro para o número de emergência. Este assistente não aciona nenhum serviço.",
+      "relacionados": [
+        "COM-02",
+        "COM-06",
+        "COM-04"
+      ]
+    },
+    {
+      "id": "COM-02",
+      "tema": "comunitarias",
+      "subtema": "Emergências",
+      "pergunta": "O que devo informar quando ligar para a emergência?",
+      "palavras_chave": [
+        "o que informar",
+        "ligar para emergencia",
+        "como pedir socorro",
+        "chamar socorro",
+        "acidente",
+        "vitimas"
+      ],
+      "orientacao": "Ao ligar para um serviço de emergência, informe: o endereço ou a localização da ocorrência; um ponto de referência; o tipo de ocorrência; quantas pessoas estão envolvidas e o estado das vítimas; e outros riscos, como vazamento de gás, fios expostos ou incêndio.",
+      "referencia": {
+        "titulo": "Ministério das Comunicações — Emergência: você sabe para quem ligar quando precisa de ajuda?",
+        "url": "https://www.gov.br/mcom/pt-br/noticias/noticias_alt/2026/setembro/emergencia-voce-sabe-para-quem-ligar-quando-precisa-de-ajuda"
+      },
+      "data_verificacao": "2026-11-18",
+      "aviso": "Mantenha a calma e siga as orientações do atendente. Não desligue antes de ser orientado.",
+      "relacionados": [
+        "COM-01",
+        "COM-06",
+        "COM-03"
+      ]
+    },
+    {
+      "id": "COM-03",
+      "tema": "comunitarias",
+      "subtema": "Proteção e direitos humanos",
+      "pergunta": "Como denunciar uma violação de direitos humanos (Disque 100)?",
+      "palavras_chave": [
+        "disque 100",
+        "direitos humanos",
+        "denunciar",
+        "denuncia",
+        "violencia contra idoso",
+        "idoso",
+        "crianca",
+        "pessoa com deficiencia",
+        "discriminacao",
+        "trabalho escravo"
+      ],
+      "orientacao": "O Disque 100 recebe denúncias de violações de direitos humanos, inclusive contra crianças e adolescentes, pessoas idosas, pessoas com deficiência, população LGBTQIA+, população em situação de rua, vítimas de discriminação racial e de trabalho análogo à escravidão. Basta discar 100 de qualquer telefone, de graça, 24 horas por dia, todos os dias. Também atende pelo WhatsApp (61) 99611-0100.",
+      "referencia": {
+        "titulo": "gov.br — Denunciar violação de direitos humanos (Disque 100)",
+        "url": "https://www.gov.br/pt-br/servicos/denunciar-violacao-de-direitos-humanos"
+      },
+      "data_verificacao": "2026-11-18",
+      "aviso": "Se houver risco imediato à vida, ligue antes para o 190.",
+      "relacionados": [
+        "COM-04",
+        "COM-01",
+        "COM-05"
+      ]
+    },
+    {
+      "id": "COM-04",
+      "tema": "comunitarias",
+      "subtema": "Proteção e direitos humanos",
+      "pergunta": "Onde buscar ajuda em caso de violência contra a mulher (Ligue 180)?",
+      "palavras_chave": [
+        "ligue 180",
+        "180",
+        "violencia contra a mulher",
+        "violencia domestica",
+        "mulher",
+        "central de atendimento a mulher",
+        "agressao"
+      ],
+      "orientacao": "O Ligue 180 é a Central de Atendimento à Mulher. Ele orienta sobre leis, direitos e serviços da rede de atendimento, informa onde ficam os serviços especializados e registra denúncias. Funciona 24 horas por dia, todos os dias, e a ligação é gratuita. Também atende pelo WhatsApp (61) 9610-0180 e pelo e-mail central180@mulheres.gov.br.",
+      "referencia": {
+        "titulo": "Ministério das Mulheres — Ligue 180",
+        "url": "https://www.gov.br/mulheres/pt-br/ligue180"
+      },
+      "data_verificacao": "2026-11-18",
+      "aviso": "Em emergência, acione a Polícia Militar pelo 190, e não o 180.",
+      "relacionados": [
+        "COM-03",
+        "COM-01",
+        "COM-05"
+      ]
+    },
+    {
+      "id": "COM-05",
+      "tema": "comunitarias",
+      "subtema": "Assistência social",
+      "pergunta": "O que é o CRAS e como ele pode ajudar minha família?",
+      "palavras_chave": [
+        "cras",
+        "centro de referencia de assistencia social",
+        "assistencia social",
+        "paif",
+        "apoio a familia",
+        "vulnerabilidade"
+      ],
+      "orientacao": "O CRAS (Centro de Referência de Assistência Social) é a principal porta de entrada da Assistência Social. É um serviço público de proteção social básica, e seu principal serviço é o PAIF (Proteção e Atendimento Integral à Família), que acompanha famílias para prevenir situações de vulnerabilidade e garantir acesso a direitos. O CRAS atende toda a população, com prioridade para famílias e pessoas em situação de vulnerabilidade social, e também faz a inscrição e a atualização no Cadastro Único.",
+      "referencia": {
+        "titulo": "Prefeitura de São Paulo — Centro de Referência de Assistência Social (CRAS)",
+        "url": "https://prefeitura.sp.gov.br/web/assistencia_social/w/protecao_social_basica/1906"
+      },
+      "data_verificacao": "2026-11-18",
+      "aviso": "Endereços, horários e documentos variam por município. Confirme com a prefeitura da sua cidade.",
+      "relacionados": [
+        "SER-03",
+        "COM-03",
+        "SER-01"
+      ]
+    },
+    {
+      "id": "COM-06",
+      "tema": "comunitarias",
+      "subtema": "Emergências",
+      "pergunta": "Para quem ligar em caso de enchente ou deslizamento?",
+      "palavras_chave": [
+        "enchente",
+        "alagamento",
+        "deslizamento",
+        "desastre",
+        "defesa civil",
+        "199",
+        "area de risco",
+        "chuva forte",
+        "inundacao"
+      ],
+      "orientacao": "Em desastres e situações de risco, como enchentes, deslizamentos e áreas de risco, ligue para a Defesa Civil no número 199. Se houver pessoas feridas ou presas, acione também o Corpo de Bombeiros (193) ou o SAMU (192).",
+      "referencia": {
+        "titulo": "Ministério das Comunicações — Emergência: você sabe para quem ligar quando precisa de ajuda?",
+        "url": "https://www.gov.br/mcom/pt-br/noticias/noticias_alt/2026/setembro/emergencia-voce-sabe-para-quem-ligar-quando-precisa-de-ajuda"
+      },
+      "data_verificacao": "2026-11-18",
+      "aviso": "Siga os alertas oficiais da Defesa Civil do seu município e saia de áreas de risco quando orientado.",
+      "relacionados": [
+        "COM-01",
+        "COM-02",
+        "COM-05"
+      ]
+    }
+  ]
+}
