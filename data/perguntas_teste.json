@@ -1,0 +1,230 @@
+{
+  "descricao": "Perguntas de teste do Citizen Assist AI. tipo_esperado: resposta | sem_base | ambigua | vazia | dados_pessoais | opcao_invalida.",
+  "perguntas": [
+    {
+      "id": "T01",
+      "categoria": "direta",
+      "entrada": "Quais documentos consultar antes de solicitar um serviço?",
+      "modo": "pergunta",
+      "tipo_esperado": "resposta",
+      "id_esperado": "DOC-01",
+      "orientacao_esperada": "Separar CPF, conta gov.br e documento com foto (DOC-01)"
+    },
+    {
+      "id": "T02",
+      "categoria": "direta",
+      "entrada": "Como faço para tirar o CPF?",
+      "modo": "pergunta",
+      "tipo_esperado": "resposta",
+      "id_esperado": "DOC-02",
+      "orientacao_esperada": "Inscrição no CPF pela Receita Federal (DOC-02)"
+    },
+    {
+      "id": "T03",
+      "categoria": "reformulacao",
+      "entrada": "Não tenho CPF, onde consigo me inscrever?",
+      "modo": "pergunta",
+      "tipo_esperado": "resposta",
+      "id_esperado": "DOC-02",
+      "orientacao_esperada": "Inscrição no CPF (DOC-02)"
+    },
+    {
+      "id": "T04",
+      "categoria": "direta",
+      "entrada": "A primeira via da carteira de identidade nacional é paga?",
+      "modo": "pergunta",
+      "tipo_esperado": "resposta",
+      "id_esperado": "DOC-03",
+      "orientacao_esperada": "CIN: 1ª via gratuita (DOC-03)"
+    },
+    {
+      "id": "T05",
+      "categoria": "reformulacao",
+      "entrada": "como tirar o novo RG",
+      "modo": "pergunta",
+      "tipo_esperado": "resposta",
+      "id_esperado": "DOC-03",
+      "orientacao_esperada": "CIN substitui o RG (DOC-03)"
+    },
+    {
+      "id": "T06",
+      "categoria": "direta",
+      "entrada": "Como aumentar o nível da minha conta gov.br para ouro?",
+      "modo": "pergunta",
+      "tipo_esperado": "resposta",
+      "id_esperado": "DOC-04",
+      "orientacao_esperada": "Níveis da conta gov.br (DOC-04)"
+    },
+    {
+      "id": "T07",
+      "categoria": "reformulacao",
+      "entrada": "Perdi minha certidão de nascimento, como peço outra?",
+      "modo": "pergunta",
+      "tipo_esperado": "resposta",
+      "id_esperado": "DOC-05",
+      "orientacao_esperada": "2ª via em qualquer cartório (DOC-05)"
+    },
+    {
+      "id": "T08",
+      "categoria": "reformulacao",
+      "entrada": "Fui mandado embora sem justa causa, tenho direito a algum benefício?",
+      "modo": "pergunta",
+      "tipo_esperado": "resposta",
+      "id_esperado": "SER-05",
+      "orientacao_esperada": "Seguro-desemprego (SER-05)"
+    },
+    {
+      "id": "T09",
+      "categoria": "reformulacao",
+      "entrada": "Comprei pela internet e me arrependi, posso devolver?",
+      "modo": "pergunta",
+      "tipo_esperado": "resposta",
+      "id_esperado": "SER-07",
+      "orientacao_esperada": "Direito de arrependimento em 7 dias (SER-07)"
+    },
+    {
+      "id": "T10",
+      "categoria": "direta",
+      "entrada": "Qual número ligar em caso de enchente?",
+      "modo": "pergunta",
+      "tipo_esperado": "resposta",
+      "id_esperado": "COM-06",
+      "orientacao_esperada": "Defesa Civil 199 (COM-06)"
+    },
+    {
+      "id": "T11",
+      "categoria": "reformulacao",
+      "entrada": "Onde denunciar violência contra idoso?",
+      "modo": "pergunta",
+      "tipo_esperado": "resposta",
+      "id_esperado": "COM-03",
+      "orientacao_esperada": "Disque 100 (COM-03)"
+    },
+    {
+      "id": "T12",
+      "categoria": "reformulacao",
+      "entrada": "Como me cadastrar no Bolsa Família?",
+      "modo": "pergunta",
+      "tipo_esperado": "resposta",
+      "id_esperado": "SER-03",
+      "orientacao_esperada": "Cadastro Único no CRAS (SER-03)"
+    },
+    {
+      "id": "T13",
+      "categoria": "reformulacao",
+      "entrada": "meu marido me bateu, onde peço ajuda",
+      "modo": "pergunta",
+      "tipo_esperado": "resposta",
+      "id_esperado": "COM-04",
+      "orientacao_esperada": "Ligue 180 / 190 em emergência (COM-04)"
+    },
+    {
+      "id": "T14",
+      "categoria": "reformulacao",
+      "entrada": "Quero ver o extrato da minha aposentadoria",
+      "modo": "pergunta",
+      "tipo_esperado": "resposta",
+      "id_esperado": "SER-04",
+      "orientacao_esperada": "Meu INSS (SER-04)"
+    },
+    {
+      "id": "T15",
+      "categoria": "reformulacao",
+      "entrada": "Qual o telefone do SAMU?",
+      "modo": "pergunta",
+      "tipo_esperado": "resposta",
+      "id_esperado": "COM-01",
+      "orientacao_esperada": "Telefones de emergência: 192 (COM-01)"
+    },
+    {
+      "id": "T16",
+      "categoria": "reformulacao",
+      "entrada": "Dá para mostrar o cartão do SUS pelo celular?",
+      "modo": "pergunta",
+      "tipo_esperado": "resposta",
+      "id_esperado": "SER-02",
+      "orientacao_esperada": "Meu SUS Digital apresenta o cartão (SER-02)"
+    },
+    {
+      "id": "T17",
+      "categoria": "reformulacao",
+      "entrada": "Preciso tirar a carteira de trabalho",
+      "modo": "pergunta",
+      "tipo_esperado": "resposta",
+      "id_esperado": "DOC-07",
+      "orientacao_esperada": "CTPS Digital (DOC-07)"
+    },
+    {
+      "id": "T18",
+      "categoria": "reformulacao",
+      "entrada": "A empresa não resolve meu problema, onde posso reclamar?",
+      "modo": "pergunta",
+      "tipo_esperado": "resposta",
+      "id_esperado": "SER-06",
+      "orientacao_esperada": "consumidor.gov.br e Procon (SER-06)"
+    },
+    {
+      "id": "T19",
+      "categoria": "fora_do_tema",
+      "entrada": "Como funciona um foguete?",
+      "modo": "pergunta",
+      "tipo_esperado": "sem_base",
+      "id_esperado": null,
+      "orientacao_esperada": "Aviso de limite + sugestão de temas"
+    },
+    {
+      "id": "T20",
+      "categoria": "fora_do_tema",
+      "entrada": "Qual a previsão do tempo para amanhã?",
+      "modo": "pergunta",
+      "tipo_esperado": "sem_base",
+      "id_esperado": null,
+      "orientacao_esperada": "Aviso de limite + sugestão de temas"
+    },
+    {
+      "id": "T21",
+      "categoria": "sem_resposta_confiavel",
+      "entrada": "Qual o valor do aluguel social em Curitiba?",
+      "modo": "pergunta",
+      "tipo_esperado": "sem_base",
+      "id_esperado": null,
+      "orientacao_esperada": "Assunto próximo da base, mas sem registro confiável: aviso de limite"
+    },
+    {
+      "id": "T22",
+      "categoria": "limitacao_vazia",
+      "entrada": "",
+      "modo": "pergunta",
+      "tipo_esperado": "vazia",
+      "id_esperado": null,
+      "orientacao_esperada": "Mensagem pedindo para digitar uma pergunta"
+    },
+    {
+      "id": "T23",
+      "categoria": "limitacao_ambigua",
+      "entrada": "documento",
+      "modo": "pergunta",
+      "tipo_esperado": "ambigua",
+      "id_esperado": null,
+      "orientacao_esperada": "Lista de opções para o usuário escolher"
+    },
+    {
+      "id": "T24",
+      "categoria": "limitacao_dados_pessoais",
+      "entrada": "meu cpf é 123.456.789-09, está regular?",
+      "modo": "pergunta",
+      "tipo_esperado": "dados_pessoais",
+      "id_esperado": null,
+      "orientacao_esperada": "Descarta a mensagem e orienta a não enviar dados pessoais"
+    },
+    {
+      "id": "T25",
+      "categoria": "limitacao_opcao_inexistente",
+      "entrada": "9",
+      "modo": "menu",
+      "tipo_esperado": "opcao_invalida",
+      "id_esperado": null,
+      "orientacao_esperada": "Mensagem de opção inexistente no menu"
+    }
+  ]
+}
