@@ -1,0 +1,26 @@
+id,categoria,entrada,tipo_esperado,id_esperado,orientacao_esperada,tipo_obtido,id_obtido,resposta_obtida,score,acerto,tempo_ms
+T01,direta,Quais documentos consultar antes de solicitar um serviço?,resposta,DOC-01,"Separar CPF, conta gov.br e documento com foto (DOC-01)",resposta,DOC-01,DOC-01: Quais documentos consultar antes de solicitar um serviço?,0.731,acerto,0.896
+T02,direta,Como faço para tirar o CPF?,resposta,DOC-02,Inscrição no CPF pela Receita Federal (DOC-02),resposta,DOC-02,DOC-02: Como faço a inscrição no CPF?,0.744,acerto,0.888
+T03,reformulacao,"Não tenho CPF, onde consigo me inscrever?",resposta,DOC-02,Inscrição no CPF (DOC-02),resposta,DOC-02,DOC-02: Como faço a inscrição no CPF?,0.600,acerto,0.926
+T04,direta,A primeira via da carteira de identidade nacional é paga?,resposta,DOC-03,CIN: 1ª via gratuita (DOC-03),resposta,DOC-03,DOC-03: O que é a Carteira de Identidade Nacional (CIN) e quanto custa a primeira via?,0.872,acerto,1.262
+T05,reformulacao,como tirar o novo RG,resposta,DOC-03,CIN substitui o RG (DOC-03),resposta,DOC-03,DOC-03: O que é a Carteira de Identidade Nacional (CIN) e quanto custa a primeira via?,0.669,acerto,0.846
+T06,direta,Como aumentar o nível da minha conta gov.br para ouro?,resposta,DOC-04,Níveis da conta gov.br (DOC-04),resposta,DOC-04,DOC-04: Quais são os níveis da conta gov.br e como aumentar o nível?,0.899,acerto,1.057
+T07,reformulacao,"Perdi minha certidão de nascimento, como peço outra?",resposta,DOC-05,2ª via em qualquer cartório (DOC-05),resposta,DOC-05,DOC-05: Como pedir a segunda via da certidão de nascimento?,0.730,acerto,0.584
+T08,reformulacao,"Fui mandado embora sem justa causa, tenho direito a algum benefício?",resposta,SER-05,Seguro-desemprego (SER-05),resposta,SER-05,SER-05: Quem tem direito ao seguro-desemprego e como pedir?,0.583,acerto,1.425
+T09,reformulacao,"Comprei pela internet e me arrependi, posso devolver?",resposta,SER-07,Direito de arrependimento em 7 dias (SER-07),resposta,SER-07,SER-07: Comprei pela internet e me arrependi. Posso desistir da compra?,0.691,acerto,0.776
+T10,direta,Qual número ligar em caso de enchente?,resposta,COM-06,Defesa Civil 199 (COM-06),resposta,COM-06,COM-06: Para quem ligar em caso de enchente ou deslizamento?,0.440,acerto,1.048
+T11,reformulacao,Onde denunciar violência contra idoso?,resposta,COM-03,Disque 100 (COM-03),resposta,COM-03,COM-03: Como denunciar uma violação de direitos humanos (Disque 100)?,0.916,acerto,0.964
+T12,reformulacao,Como me cadastrar no Bolsa Família?,resposta,SER-03,Cadastro Único no CRAS (SER-03),resposta,SER-03,SER-03: Como me inscrever no Cadastro Único?,0.747,acerto,0.743
+T13,reformulacao,"meu marido me bateu, onde peço ajuda",resposta,COM-04,Ligue 180 / 190 em emergência (COM-04),resposta,COM-04,COM-04: Onde buscar ajuda em caso de violência contra a mulher (Ligue 180)?,0.404,acerto,0.549
+T14,reformulacao,Quero ver o extrato da minha aposentadoria,resposta,SER-04,Meu INSS (SER-04),resposta,SER-04,SER-04: O que dá para fazer no Meu INSS e como acessar?,0.452,acerto,0.564
+T15,reformulacao,Qual o telefone do SAMU?,resposta,COM-01,Telefones de emergência: 192 (COM-01),resposta,COM-01,COM-01: Quais são os telefones de emergência?,0.703,acerto,0.522
+T16,reformulacao,Dá para mostrar o cartão do SUS pelo celular?,resposta,SER-02,Meu SUS Digital apresenta o cartão (SER-02),resposta,SER-01,SER-01: Como conseguir o Cartão SUS (Cartão Nacional de Saúde)?,0.645,erro,0.762
+T17,reformulacao,Preciso tirar a carteira de trabalho,resposta,DOC-07,CTPS Digital (DOC-07),resposta,DOC-07,DOC-07: Como obter a Carteira de Trabalho Digital?,0.798,acerto,1.256
+T18,reformulacao,"A empresa não resolve meu problema, onde posso reclamar?",resposta,SER-06,consumidor.gov.br e Procon (SER-06),resposta,SER-06,SER-06: Como registrar uma reclamação contra uma empresa?,0.844,acerto,0.559
+T19,fora_do_tema,Como funciona um foguete?,sem_base,,Aviso de limite + sugestão de temas,sem_base,,Aviso de limite + sugestão de temas,,acerto,0.310
+T20,fora_do_tema,Qual a previsão do tempo para amanhã?,sem_base,,Aviso de limite + sugestão de temas,sem_base,,Aviso de limite + sugestão de temas,,acerto,0.310
+T21,sem_resposta_confiavel,Qual o valor do aluguel social em Curitiba?,sem_base,,"Assunto próximo da base, mas sem registro confiável: aviso de limite",sem_base,,Aviso de limite + sugestão de temas,0.218,acerto,0.698
+T22,limitacao_vazia,,vazia,,Mensagem pedindo para digitar uma pergunta,vazia,,Você não digitou nada. Escreva uma pergunta ou escolha uma opção do menu.,,acerto,0.001
+T23,limitacao_ambigua,documento,ambigua,,Lista de opções para o usuário escolher,ambigua,,"Opções: DOC-01, DOC-03",0.619,acerto,0.581
+T24,limitacao_dados_pessoais,"meu cpf é 123.456.789-09, está regular?",dados_pessoais,,Descarta a mensagem e orienta a não enviar dados pessoais,dados_pessoais,,Mensagem descartada por conter dados pessoais,,acerto,0.001
+T25,limitacao_opcao_inexistente,9,opcao_invalida,,Mensagem de opção inexistente no menu,opcao_invalida,,"Opção ""9"" não existe. Digite um dos números ou letras mostrados entre colchetes.",,acerto,0.123
