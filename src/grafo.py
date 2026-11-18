@@ -34,8 +34,10 @@ class GrafoAssuntos:
             extras = sorted(viz - set(declarados))
             self.adjacencia[rid] = declarados + extras
 
-    def vizinhos(self, rid: str, limite: int = 3) -> list[dict]:
-        return [self.base.por_id[i] for i in self.adjacencia.get(rid, [])[:limite]]
+    def vizinhos(self, rid: str, limite: int = 3, excluir: tuple[str, ...] = ()) -> list[dict]:
+        """Até `limite` assuntos ligados a `rid`, sem os IDs de `excluir` (ex.: o assunto anterior)."""
+        ids = [i for i in self.adjacencia.get(rid, []) if i not in excluir]
+        return [self.base.por_id[i] for i in ids[:limite]]
 
     def caminho(self, origem: str, destino: str) -> list[str]:
         """Menor caminho entre dois assuntos (busca em largura). Lista vazia se não houver."""

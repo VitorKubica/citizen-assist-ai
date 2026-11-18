@@ -158,9 +158,11 @@ class Assistente:
 
     def mostrar(self, registro: dict) -> None:
         """Exibe a orientação e oferece a navegação pelos assuntos relacionados."""
+        anterior: tuple[str, ...] = ()
         while registro is not None:
             self.historico.append(registro["id"])
-            relacionados = self.grafo.vizinhos(registro["id"])
+            # Não oferece de volta o assunto de onde o usuário acabou de vir.
+            relacionados = self.grafo.vizinhos(registro["id"], excluir=anterior)
             nome_tema = self.base.temas[registro["tema"]]
             self.escrever("")
             self.escrever("-" * R.LARGURA)
@@ -180,6 +182,7 @@ class Assistente:
             if op == "P":
                 self.perguntar(self.ler("Digite sua pergunta: "))
                 return
+            anterior = (registro["id"],)
             registro = relacionados[op - 1]
 
 
